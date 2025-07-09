@@ -1,4 +1,6 @@
+import Marquee from "react-fast-marquee";
 import heroPic from "../assets/images/hero.gif";
+
 
 const HeroArea = () => {
   return (
