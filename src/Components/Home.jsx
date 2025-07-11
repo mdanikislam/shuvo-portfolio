@@ -4,11 +4,12 @@ import About from './About';
 import Blog from './Blog';
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import MarqueAd from './MarqueAd';
 
 const fadeIn = {
   initial: {
     opacity: 0,
-    y: 50
+    y: 100
   },
   animate: {
     opacity: 1,
@@ -22,30 +23,34 @@ const fadeIn = {
 
 const Home = () => {
   return (
-    <div className='w-8/12 mx-auto pt-20 space-y-20'>
+    <div >
       <motion.div
         variants={fadeIn}
         initial="initial"
         whileInView="animate"
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.3 }}
+        className='w-8/12 mx-auto pt-20 space-y-20'
       >
         <HeroArea />
       </motion.div>
 
+     
+
       <motion.div
         variants={fadeIn}
         initial="initial"
         whileInView="animate"
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.3 }}
+        className=' mx-auto pt-20'
       >
-        <About />
+        <MarqueAd />
       </motion.div>
 
       <motion.div
         variants={fadeIn}
         initial="initial"
         whileInView="animate"
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.3 }}
       >
         <Blog />
       </motion.div>
