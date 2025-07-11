@@ -13,13 +13,13 @@ const MarqueAd = () => {
         <div>
                   <div className="pt-10 ">
         <Marquee>
-            <img src={facebookAds}  className='md:h-20 mx-4 object-contain' alt="" />
-            <img src={googleAds}  className='md:h-20 mx-4 object-contain' alt="" />
-            <img src={content } className='md:h-20 mx-4 object-contain' alt="" />
-            <img src={keyword}  className='md:h-20 mx-4 object-contain' alt="" />
-            <img src={facebookBuisinessPage}  className='md:h-20 mx-4 object-contain' alt="" />
-            <img src={youtubeSeo}  className='md:h-20 mx-4 object-contain' alt="" />
-            <img src={facebookPixel}  className='md:h-20 mx-4 object-contain' alt="" />
+            <img src={facebookAds}  className='h-20 mx-4 object-contain' alt="" />
+            <img src={googleAds}  className='h-20 mx-4 object-contain' alt="" />
+            <img src={content } className='h-20 mx-4 object-contain' alt="" />
+            <img src={keyword}  className='h-20 mx-4 object-contain' alt="" />
+            <img src={facebookBuisinessPage}  className='h-20 mx-4 object-contain' alt="" />
+            <img src={youtubeSeo}  className='h-20 mx-4 object-contain' alt="" />
+            <img src={facebookPixel}  className='h-20 mx-4 object-contain' alt="" />
         </Marquee>
       </div>
         </div>

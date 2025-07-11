@@ -1,10 +1,26 @@
 import Marquee from "react-fast-marquee";
 import heroPic from "../assets/images/hero.gif";
+// eslint-disable-next-line no-unused-vars
+import { motion } from "framer-motion";
 
 
 const HeroArea = () => {
+  const fadeIn = {
+  initial: {
+    opacity: 0.2,
+    y: 300
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      ease: "easeOut"
+    }
+  }
+};
   return (
-    <div className="md:flex justify-between gap-3 items-center">
+    <div className="md:flex justify-between gap-3 items-center pt-10">
       <div >
         <h1 className="text-2xl md:text-3xl font-medium">Hi'm,</h1>
         <h1 className="text-4xl md:text-5xl py-5 font-bold">Ranjohn Sarkar Shuvo</h1>
@@ -24,9 +40,13 @@ const HeroArea = () => {
           </a>
         </div>
       </div>
-      <div>
+      <motion.div
+      variants={fadeIn}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, amount: 0.4 }}>
         <img className="object-cover" src={heroPic} alt="" />
-      </div>
+      </motion.div>
     </div>
   );
 };

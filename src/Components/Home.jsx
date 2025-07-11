@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import MarqueAd from './MarqueAd';
 import Benefits from './Benefits';
 import Faq from './Faq';
+import Testimonial from './Testimonial';
 
 const fadeIn = {
   initial: {
@@ -70,13 +71,16 @@ const Home = () => {
         <Faq />
       </motion.div> 
 
+
+
       <motion.div
         variants={fadeIn}
         initial="initial"
         whileInView="animate"
         viewport={{ once: true, amount: 0.3 }}
+        className='w-8/12 mx-auto pt-20 space-y-20'
       >
-        <Blog />
+        <Testimonial />
       </motion.div>
     </div>
   );
