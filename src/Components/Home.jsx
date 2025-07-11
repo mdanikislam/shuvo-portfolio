@@ -5,6 +5,8 @@ import Blog from './Blog';
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import MarqueAd from './MarqueAd';
+import Benefits from './Benefits';
+import Faq from './Faq';
 
 const fadeIn = {
   initial: {
@@ -45,6 +47,28 @@ const Home = () => {
       >
         <MarqueAd />
       </motion.div>
+
+{/* Benefits  */}
+      <motion.div
+        variants={fadeIn}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, amount: 0.3 }}
+         className='w-8/12 mx-auto pt-20 space-y-20'
+      >
+        <Benefits />
+      </motion.div>
+
+ {/* faq  */}
+      <motion.div
+        variants={fadeIn}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, amount: 0.3 }}
+         className='w-8/12 mx-auto pt-20 space-y-20'
+      >
+        <Faq />
+      </motion.div> 
 
       <motion.div
         variants={fadeIn}
