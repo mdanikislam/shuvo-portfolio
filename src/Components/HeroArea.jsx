@@ -8,7 +8,7 @@ const HeroArea = () => {
   const fadeIn = {
   initial: {
     opacity: 0.2,
-    y: 300
+    y: 260
   },
   animate: {
     opacity: 1,

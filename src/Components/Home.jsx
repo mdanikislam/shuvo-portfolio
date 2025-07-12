@@ -8,6 +8,7 @@ import MarqueAd from './MarqueAd';
 import Benefits from './Benefits';
 import Faq from './Faq';
 import Testimonial from './Testimonial';
+import Footer from './Footer';
 
 const fadeIn = {
   initial: {
@@ -32,7 +33,7 @@ const Home = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true, amount: 0.3 }}
-        className='w-8/12 mx-auto pt-20 space-y-20'
+        className='md:w-8/12 w-10/12 mx-auto pt-20 space-y-20'
       >
         <HeroArea />
       </motion.div>
@@ -55,7 +56,7 @@ const Home = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true, amount: 0.3 }}
-         className='w-8/12 mx-auto pt-20 space-y-20'
+         className='md:w-8/12 w-10/12 mx-auto pt-20 space-y-20'
       >
         <Benefits />
       </motion.div>
@@ -66,7 +67,7 @@ const Home = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true, amount: 0.3 }}
-         className='w-8/12 mx-auto pt-20 space-y-20'
+         className='md:w-8/12 w-10/12 mx-auto pt-20 space-y-20'
       >
         <Faq />
       </motion.div> 
@@ -78,9 +79,20 @@ const Home = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true, amount: 0.3 }}
-        className='w-8/12 mx-auto pt-20 space-y-20'
+        className='md:w-8/12 w-10/12 mx-auto pt-20 space-y-20'
       >
         <Testimonial />
+      </motion.div>
+
+
+      <motion.div
+        variants={fadeIn}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, amount: 0.3 }}
+        className='mx-auto pt-20 space-y-20'
+      >
+        <Footer />
       </motion.div>
     </div>
   );

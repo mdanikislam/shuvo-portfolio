@@ -12,14 +12,14 @@ const MarqueAd = () => {
     return (
         <div>
                   <div className="pt-10 ">
-        <Marquee>
-            <img src={facebookAds}  className='h-20 mx-4 object-contain' alt="" />
-            <img src={googleAds}  className='h-20 mx-4 object-contain' alt="" />
-            <img src={content } className='h-20 mx-4 object-contain' alt="" />
-            <img src={keyword}  className='h-20 mx-4 object-contain' alt="" />
-            <img src={facebookBuisinessPage}  className='h-20 mx-4 object-contain' alt="" />
-            <img src={youtubeSeo}  className='h-20 mx-4 object-contain' alt="" />
-            <img src={facebookPixel}  className='h-20 mx-4 object-contain' alt="" />
+        <Marquee pauseOnHover='true' autoFill>
+            <img src={facebookAds}  className='h-20 mx-4 object-cover rounded-md' alt="" />
+            <img src={googleAds}  className='h-20 mx-4 object-cover rounded-md' alt="" />
+            <img src={content } className='h-20 mx-4 object-cover rounded-md' alt="" />
+            <img src={keyword}  className='h-20 mx-4 object-cover rounded-md' alt="" />
+            <img src={facebookBuisinessPage}  className='h-20 mx-4 object-cover rounded-md' alt="" />
+            <img src={youtubeSeo}  className='h-20 mx-4 object-cover rounded-md' alt="" />
+            <img src={facebookPixel}  className='h-20 mx-4 object-cover rounded-md' alt="" />
         </Marquee>
       </div>
         </div>

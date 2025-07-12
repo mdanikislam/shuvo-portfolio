@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto w-9/12 py-4 flex justify-between items-center">
         {/* Brand */}
         <Link to="/" className="text-2xl font-bold text-gray-800">
           Shuvo
