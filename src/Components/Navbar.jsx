@@ -32,6 +32,14 @@ const Navbar = () => {
             About Me
           </NavLink>
           <NavLink
+            to="/services"
+            className={({ isActive }) =>
+              isActive ? "text-blue-600" : "text-gray-800 hover:text-blue-600"
+            }
+          >
+           Services
+          </NavLink>
+          <NavLink
             to="/blog"
             className={({ isActive }) =>
               isActive ? "text-blue-600" : "text-gray-800 hover:text-blue-600"
@@ -72,6 +80,15 @@ const Navbar = () => {
               }
             >
               About Me
+            </NavLink>
+            <NavLink
+              to="/services"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? "text-blue-600" : "text-gray-800 hover:text-blue-600"
+              }
+            >
+              Services
             </NavLink>
             <NavLink
               to="/blog"

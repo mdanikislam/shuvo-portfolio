@@ -20,7 +20,7 @@ const HeroArea = () => {
   }
 };
   return (
-    <div className="md:flex justify-between gap-3 items-center pt-10">
+    <div className="md:flex justify-between gap-3 items-center">
       <div >
         <h1 className="text-2xl md:text-3xl font-medium">Hi'm,</h1>
         <h1 className="text-4xl md:text-5xl py-5 font-bold">Ranjohn Sarkar Shuvo</h1>

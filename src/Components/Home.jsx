@@ -33,7 +33,7 @@ const Home = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true, amount: 0.3 }}
-        className='md:w-8/12 w-10/12 mx-auto pt-20 space-y-20'
+        className='md:w-8/12 w-10/12 mx-auto md:pt-20 pt-5 space-y-20'
       >
         <HeroArea />
       </motion.div>
