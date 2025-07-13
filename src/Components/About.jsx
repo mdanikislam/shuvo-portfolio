@@ -1,4 +1,7 @@
 import aboutPic from "../assets/images/about.jpg";
+import { GiSkills } from "react-icons/gi";
+
+
 const About = () => {
   return (
     <div className="py-10 md:w-9/12 w-10/12 mx-auto">
@@ -26,8 +29,25 @@ const About = () => {
           focus on delivering measurable business outcomes for my clients.
         </p>
       </div>
-      <div>
-        <h1>Key Skills</h1>
+      <div className="flex flex-col items-center pt-3">
+        <h1 className="flex gap-2 items-center font-bold text-3xl py-3"><GiSkills /> Key Skills</h1>
+        <ul>
+<li>✅ Digital Marketing Strategy & Planning</li>
+
+<li>✅ Facebook Ads Manager, Pixel & Analytics</li>
+
+<li>✅ Google Analytics (including GA4)</li>
+
+<li>✅ Content & Creative Coordination</li>
+
+<li>✅ Market Research & Competitor Analysis</li>
+
+<li>✅ SEO (Search Engine Optimization)</li>
+<li>
+✅ Video Editing (Adobe After Effects, Premiere Pro)</li>
+
+<li>✅ Graphic Design (Photoshop, Illustrator)</li>
+        </ul>
       </div>
     </div>
   );
