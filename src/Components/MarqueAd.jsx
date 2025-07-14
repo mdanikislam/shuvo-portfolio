@@ -12,7 +12,7 @@ const MarqueAd = () => {
     return (
         <div>
                   <div className="pt-10 ">
-        <Marquee pauseOnHover='true' autoFill>
+        <Marquee  autoFill>
             <img src={facebookAds}  className='h-20 mx-4 object-cover rounded-md' alt="" />
             <img src={googleAds}  className='h-20 mx-4 object-cover rounded-md' alt="" />
             <img src={content } className='h-20 mx-4 object-cover rounded-md' alt="" />

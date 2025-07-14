@@ -1,7 +1,6 @@
-import React from 'react';
+
 import HeroArea from './HeroArea';
-import About from './About';
-import Blog from './Blog';
+
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import MarqueAd from './MarqueAd';
