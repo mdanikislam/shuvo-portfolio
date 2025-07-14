@@ -53,9 +53,25 @@ const About = () => {
 
           <li>✅ Graphic Design (Photoshop, Illustrator)</li>
         </ul>
+          <div className="pt-5">
+            <h1 className="flex gap-2 items-center font-bold text-3xl py-3">📈 Experience</h1>
+<ul>
+<li> ✔️ Digital Marketing Executive at Beautyology, Glowee Bangladesh, Shahidas Lifestyle</li>
+
+<li>✔️ Content Marketing</li>
+
+<li>✔️ Facebook Ads Campaign Management</li>
+
+<li>✔️ Analytics & Reporting</li>
+</ul>
+          </div>
         </div>
       </div>
-    </div>
+      {/* Experience  */}
+      
+
+      </div>
+  
   );
 };
 
