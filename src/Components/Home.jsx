@@ -12,7 +12,7 @@ import Footer from './Footer';
 const fadeIn = {
   initial: {
     opacity: 0,
-    y: 100
+    y: 80
   },
   animate: {
     opacity: 1,
