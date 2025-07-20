@@ -15,17 +15,17 @@ const Blog = () => {
 		</a>
 		<div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?1" />
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRboYLWENZ4WYtbccLsFTuoDeWRmLmmwoohrg&s" />
 				<div className="p-6 space-y-2">
-					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Is AI Going to Take My Digital Marketing Job?</h3>
 					<span className="text-xs dark:text-gray-600">January 21, 2021</span>
 					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
 				</div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?2" />
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://mydmi.imgix.net/How_to_Make_Videos_Without_Hiring_a_Professional.jpg?crop=edges&fit=crop&fm=auto&h=1260&ixlib=php-4.1.0&q=40&w=2400&s=829ed977f84e6463f3578556c37bc621" />
 				<div className="p-6 space-y-2">
-					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">How to Make Videos Without Hiring a Professional</h3>
 					<span className="text-xs dark:text-gray-600">January 22, 2021</span>
 					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
 				</div>
