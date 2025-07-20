@@ -31,17 +31,17 @@ const Blog = () => {
 				</div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?3" />
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://mydmi.imgix.net/Blog_Card_Brand_Asset_Management__How_to_Make_a_Brand_Recognizable_%281%29.png?crop=edges&fit=crop&fm=auto&h=1260&ixlib=php-4.1.0&q=40&w=2400&s=11b1284d02e4729473d6d08584c496ca" />
 				<div className="p-6 space-y-2">
-					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Brand Asset Management: Why Brand Recognition Is Important</h3>
 					<span className="text-xs dark:text-gray-600">January 23, 2021</span>
 					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
 				</div>
 			</a>
 			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
-				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?4" />
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://cdn.prod.website-files.com/63abbe56c73ddf03b10b6caf/65d56e64324180aa2ae3a0c9_competitive%20analysis%20digital%20marketing.webp" />
 				<div className="p-6 space-y-2">
-					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">How to Do a Competitive Analysis in Digital Marketing</h3>
 					<span className="text-xs dark:text-gray-600">January 24, 2021</span>
 					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
 				</div>
