@@ -3,8 +3,71 @@ import React from 'react';
 const Blog = () => {
     return (
         <div>
-            blog
-            <p className='text-red-700 bg-amber-200 w-full'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quia ut similique consectetur fugiat, laborum placeat eius dolorem quisquam aspernatur iste voluptate repudiandae! Impedit totam voluptatem rerum voluptas pariatur veritatis itaque. Debitis explicabo mollitia natus error dolor ad aspernatur aut in voluptatum blanditiis vero sit, aperiam cumque a quidem, non possimus sunt, quam laudantium est! Iure, aut! Nihil quis deleniti soluta labore ullam reiciendis, earum dolorem in adipisci possimus cupiditate tempore temporibus unde doloribus. Ipsam provident, eum voluptas natus cum quod assumenda? Amet voluptatum sit iure, quas rerum quae itaque numquam sequi hic, voluptatem nesciunt deserunt eligendi tempore sint aspernatur debitis veniam a sapiente deleniti? Nisi iure soluta a dolore. Perferendis repellat debitis dolore sequi illo necessitatibus, maxime laudantium obcaecati eius eaque ut nulla aliquid suscipit ab! Dicta at aliquam, repudiandae iste perferendis fugit ratione dignissimos nobis eos reiciendis accusamus tempore animi voluptatum rem eaque, qui quam maxime hic delectus incidunt. Optio perspiciatis et dolor voluptatum rerum veniam sapiente ratione sit laudantium adipisci? Officiis perferendis, pariatur consequatur quisquam atque consequuntur doloremque quasi aliquid architecto tempore aperiam rerum aut expedita! Cum perferendis corrupti fugit nulla quos libero perspiciatis velit dignissimos deleniti delectus autem incidunt, ipsa in accusantium iusto nisi blanditiis, beatae tempore ad nesciunt sed rem veritatis. Expedita et molestiae quibusdam consequatur cum dolor ullam perspiciatis placeat, nulla autem nisi voluptates blanditiis dolore ducimus labore ut ipsum eum amet vel praesentium fugit asperiores. Alias molestiae, dolorum ducimus perspiciatis tempore voluptatum, doloremque ex laudantium delectus consequuntur rerum tempora quos accusantium esse nisi. Officiis architecto non ut repellat facilis exercitationem ex, ducimus itaque optio nesciunt eaque, qui provident repellendus quidem iste magni incidunt. Voluptatum ratione eligendi dicta perferendis debitis, necessitatibus dolor tempore nulla earum minus maxime quidem voluptas cumque? Expedita deleniti, nisi ratione, sunt fugiat neque commodi recusandae iusto quam in architecto aperiam vero perspiciatis repudiandae a consequuntur dolore eveniet cum sint explicabo nesciunt? Ratione excepturi tempore, explicabo voluptate sed odio, nemo saepe iusto sapiente laudantium magni nostrum facere! Maxime consequatur voluptatibus minus quaerat placeat sapiente maiores atque quo dolores, quisquam qui! Nulla blanditiis reiciendis deleniti rem fugit onsequuntur temporibus! Recusandae molestias ullam, vel beatae atque unde dolorum saepe mollitia temporibus quasi, eligendi laudantium natus voluptates in doloribus autem necessitatibus fugit modi, perspiciatis soluta. Voluptatem quia beatae exercitationem possimus distinctio quasi assumenda dolorum dicta repudiandae. Expedita doloribus aspernatur esse asperiores quidem magni molestiae, saepe explicabo ad error consequuntur commodi eius quis  maxime?</p>
+            <section className="dark:bg-gray-100 dark:text-gray-800">
+	<div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
+		<a rel="noopener noreferrer" href="#" className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
+			<img src="https://source.unsplash.com/random/480x360" alt="" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500" />
+			<div className="p-6 space-y-2 lg:col-span-5">
+				<h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Noster tincidunt reprimique ad pro</h3>
+				<span className="text-xs dark:text-gray-600">February 19, 2021</span>
+				<p>Ei delenit sensibus liberavisse pri. Quod suscipit no nam. Est in graece fuisset, eos affert putent doctus id.</p>
+			</div>
+		</a>
+		<div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?1" />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-600">January 21, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</a>
+			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?2" />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-600">January 22, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</a>
+			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?3" />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-600">January 23, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</a>
+			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?4" />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-600">January 24, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</a>
+			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?5" />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-600">January 25, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</a>
+			<a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
+				<img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?6" />
+				<div className="p-6 space-y-2">
+					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+					<span className="text-xs dark:text-gray-600">January 26, 2021</span>
+					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+				</div>
+			</a>
+		</div>
+		<div className="flex justify-center">
+			<button type="button" className="px-6 py-3 text-sm rounded-md hover:underline dark:bg-gray-50 dark:text-gray-600">Load more posts...</button>
+		</div>
+	</div>
+</section>
         </div>
     );
 };
