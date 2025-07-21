@@ -40,6 +40,14 @@ const Navbar = () => {
            Services
           </NavLink>
           <NavLink
+            to="/caseStudy"
+            className={({ isActive }) =>
+              isActive ? "text-blue-600" : "text-gray-800 hover:text-blue-600"
+            }
+          >
+           Case Study
+          </NavLink>
+          <NavLink
             to="/contact"
             className={({ isActive }) =>
               isActive ? "text-blue-600" : "text-gray-800 hover:text-blue-600"
@@ -97,6 +105,15 @@ const Navbar = () => {
               }
             >
               Services
+            </NavLink>
+            <NavLink
+              to="/caseStudy"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? "text-blue-600" : "text-gray-800 hover:text-blue-600"
+              }
+            >
+              Case Study
             </NavLink>
             <NavLink
               to="/contact"
