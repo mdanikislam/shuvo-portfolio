@@ -68,7 +68,7 @@ In short, SEO = free, SEM = paid.
 
 </p>
 <p>4.ROI (Return on Investment)</p>
-
+<p>Engagement (likes, shares, comments)</p>
 
 
           </div>
