@@ -67,6 +67,7 @@ In short, SEO = free, SEM = paid.
 <p>3.Click-through rate (CTR)
 
 </p>
+<p>4.ROI (Return on Investment)</p>
 
 
 
