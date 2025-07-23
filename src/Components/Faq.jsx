@@ -8,30 +8,50 @@ const Faq = () => {
         <div className="collapse collapse-arrow join-item border border-base-300">
           <input type="checkbox" />
           <div className="collapse-title font-semibold">
-            How do I create an account?
+            What is digital marketing?
           </div>
           <div className="collapse-content text-sm">
-            Click the "Sign Up" button in the top right corner and follow the registration process.
+            Digital marketing is the use of digital channels like websites, social media, search engines, email, and mobile apps to promote products or services. It helps businesses reach a wider audience, track user behavior, and measure campaign effectiveness in real time.
           </div>
         </div>
 
         <div className="collapse collapse-arrow join-item border border-base-300">
           <input type="checkbox" />
           <div className="collapse-title font-semibold">
-            I forgot my password. What should I do?
+            What’s the difference between SEO and SEM?
           </div>
           <div className="collapse-content text-sm">
-            Click on "Forgot Password" on the login page and follow the instructions sent to your email.
+            SEO (Search Engine Optimization) is the process of optimizing your website to get free (organic) traffic from search engines.
+SEM (Search Engine Marketing) involves paid strategies like Google Ads to appear in search results.
+In short, SEO = free, SEM = paid.
           </div>
         </div>
 
         <div className="collapse collapse-arrow join-item border border-base-300">
           <input type="checkbox" />
           <div className="collapse-title font-semibold">
-            How do I update my profile information?
+            Why is social media important for marketing?
           </div>
           <div className="collapse-content text-sm">
-            Go to "My Account" settings and select "Edit Profile" to make changes.
+            Social media allows direct interaction with customers, builds brand awareness, drives traffic, and increases sales. It also gives real-time feedback, helps with customer service, and boosts community engagement.
+          </div>
+        </div>
+        <div className="collapse collapse-arrow join-item border border-base-300">
+          <input type="checkbox" />
+          <div className="collapse-title font-semibold">
+            What are some common digital marketing tools?
+          </div>
+          <div className="collapse-content text-sm">
+            <h2 className="font-bold">Google Analytics – for tracking website traffic</h2>
+
+<p>1.Google Ads – for paid search marketing</p>
+
+<p>2.Facebook Ads Manager – for running social media ads</p>
+
+<p>3.Mailchimp – for email marketing</p>
+
+<p>4.SEMrush / Ahrefs – for SEO research and performance</p>
+
           </div>
         </div>
       </div>
