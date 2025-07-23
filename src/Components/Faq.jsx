@@ -59,15 +59,13 @@ In short, SEO = free, SEM = paid.
             How do you measure the success of a digital marketing campaign?
           </div>
           <div className="collapse-content text-sm">
-            <h2 className="font-bold">Google Analytics – for tracking website traffic</h2>
+            <h2 className="font-bold">By tracking KPIs (Key Performance Indicators) like:</h2>
 
-<p>1.Google Ads – for paid search marketing</p>
+<p>1.Website traffic</p>
 
-<p>2.Facebook Ads Manager – for running social media ads</p>
+<p>2.Conversion rate</p>
 
-<p>3.Mailchimp – for email marketing</p>
 
-<p>4.SEMrush / Ahrefs – for SEO research and performance</p>
           </div>
         </div>
       </div>
