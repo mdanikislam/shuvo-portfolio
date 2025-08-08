@@ -69,10 +69,7 @@ const About = () => {
       </div>
       {/* Experience  */}
       
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab suscipit a veritatis ratione ea doloremque excepturi rem magnam iste, dignissimos error sunt possimus dolore iusto saepe nesciunt quia quo esse vero ad quidem, neque perspiciatis. Harum eos minima nam sed, molestiae ullam sequi, adipisci porro corporis beatae unde necessitatibus excepturi.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur, quidem officiis ut corporis ullam impedit rerum? Sed itaque amet maiores, nulla ea laboriosam. Sequi odio doloremque similique provident alias odit quisquam esse eligendi! Aliquid distinctio sed expedita ab, nulla nihil, impedit nisi nesciunt sit labore fugit assumenda esse ipsa natus officiis iste magni, atque velit doloribus ullam quibusdam quo molestiae aliquam repudiandae? Dolore eveniet repudiandae, iste dolores deserunt rerum.</p>
-      </div>
-  
+   </div>
   );
 };
 
